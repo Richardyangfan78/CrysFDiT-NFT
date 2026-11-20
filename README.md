@@ -21,14 +21,42 @@ This repository has the inference code, the model weights and the chemical-subst
 
 ## Results
 
-MSUN counts every generated attempt in the denominator. The development screen below uses a lighter three-MLIP evaluator (single points on the relaxed geometry) on two cohorts of 2,500 attempts (seeds 2026114001-02).
+MSUN and SUN count every generated attempt in the denominator.
+
+### LeMat-GenBench (MP-20)
+
+The evaluation covered three cohorts of 2,500 attempts each (seeds 2026115001-03) and all eight LeMat-GenBench metric families:
+
+- Novelty is checked against LeMat-Bulk.
+- Energies come from ORB, MACE and UMA. Stability uses the mean of their three energies above the hull.
+- Uniqueness is computed within each cohort.
+
+The table gives the mean over the three cohorts, with the seed standard deviation for MSUN. Both models use the Sall kernel.
+
+| Metric | CrysFDiT + Flow-DPO | **CrysFDiT-NFT** |
+|---|---|---|
+| **MSUN** | 22.23 % ± 0.42 | **30.19 % ± 0.52** |
+| SUN | 1.67 % | 1.79 % |
+| Valid | 96.2 % | 96.7 % |
+| Novel (of valid) | 53.9 % | 63.0 % |
+| Unique (of valid) | 98.2 % | 98.3 % |
+| JS distance (mean of four) | 0.364 | 0.371 |
+| Composition JS distance | 0.288 | 0.288 |
+| MMD | 0.0037 | 0.0033 |
+| Fréchet distance | 1.47 | 1.43 |
+
+CrysFDiT-NFT scored an MSUN of 30.16 %, 29.68 % and 30.72 % on the three cohorts. These numbers come from our own run of the LeMat-GenBench evaluation code; they are not a leaderboard submission.
+
+### Development screen
+
+The development screen used two cohorts of 2,500 attempts (seeds 2026114001-02) and a lighter evaluator: single points from the three MLIPs on the relaxed geometry.
 
 | Model (+ Sall kernel) | Development MSUN (5,000 attempts) |
 |---|---|
 | CrysFDiT + Flow-DPO (before NFT) | 23.36 % |
 | **CrysFDiT-NFT** | **30.98 %** |
 
-The full LeMat-GenBench evaluation of CrysFDiT-NFT (three cohorts of 2,500 attempts, seeds 2026115001-03, all eight metric families) is running. This section will be updated with its result. Under that full evaluation, CrysFDiT + Flow-DPO scored 22.23 % (mean of three cohorts).
+### Pre-relaxation
 
 For the benchmark, structures were pre-relaxed before evaluation (not included in this repository):
 
