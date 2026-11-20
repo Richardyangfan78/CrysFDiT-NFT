@@ -11,10 +11,10 @@ This repository has the inference code, the model weights and the chemical-subst
 - **Training** happened in three stages:
   1. The VAE and the DiT were trained from scratch on the 27,136 crystals of the MP-20 training split.
   2. The DiT was fine-tuned with Flow-DPO.
-  3. The DiT was then trained for five rounds of DiffusionNFT on verified rewards. Every rollout was relaxed and labelled. Its reward is computed in three steps:
+  3. The DiT was then trained for six rounds of DiffusionNFT (rounds 0-5) on verified rewards. Every rollout was relaxed and labelled. Its reward is computed in three steps:
      - It starts as valid × novel (against LeMat-Bulk) × an energy score.
      - The energy score is 1 up to 0.085 eV/atom above the convex hull (mean of three machine-learned interatomic potentials) and falls linearly to 0 at 0.15 eV/atom.
-     - The reward is divided by the square root of the number of rollouts with the same reduced formula, then standardised and centred within strata of atom count, arity and element class.
+     - The reward is divided by the square root of the number of rollouts with the same reduced formula, then standardised and centred within strata of atom count and arity. From round 4 on, the strata are also split by element class.
 
      The released weights are the raw weights after round 5.
 - **Sall substitution kernel**. Samples pass through a frozen kernel (`crysfdit_nft/kernel.py`, rules in `assets/element_rules.json`). It swaps whole species for compatible elements of the same group and block, and scales the lattice by the ratio of mean atomic radii. It keeps the geometry, atom count and arity of every crystal, uses no energy or novelty oracle, and returns one output for every input.
@@ -31,19 +31,19 @@ The evaluation covered three cohorts of 2,500 attempts each (seeds 2026115001-03
 - Energies come from ORB, MACE and UMA. Stability uses the mean of their three energies above the hull.
 - Uniqueness is computed within each cohort.
 
-The table gives the mean over the three cohorts, with the seed standard deviation for MSUN. Both models use the Sall kernel.
+The table gives the mean over the three cohorts, with the seed standard deviation for MSUN. Samples pass through the Sall kernel.
 
-| Metric | CrysFDiT + Flow-DPO | **CrysFDiT-NFT** |
-|---|---|---|
-| **MSUN** | 22.23 % ± 0.42 | **30.19 % ± 0.52** |
-| SUN | 1.67 % | 1.79 % |
-| Valid | 96.2 % | 96.7 % |
-| Novel (of valid) | 53.9 % | 63.0 % |
-| Unique (of valid) | 98.2 % | 98.3 % |
-| JS distance (mean of four) | 0.364 | 0.371 |
-| Composition JS distance | 0.288 | 0.288 |
-| MMD | 0.0037 | 0.0033 |
-| Fréchet distance | 1.47 | 1.43 |
+| Metric | CrysFDiT-NFT |
+|---|---|
+| **MSUN** | **30.19 % ± 0.52** |
+| SUN | 1.79 % |
+| Valid | 96.7 % |
+| Novel (of valid) | 63.0 % |
+| Unique (of valid) | 98.3 % |
+| JS distance (mean of four) | 0.371 |
+| Composition JS distance | 0.288 |
+| MMD | 0.0033 |
+| Fréchet distance | 1.43 |
 
 CrysFDiT-NFT scored an MSUN of 30.16 %, 29.68 % and 30.72 % on the three cohorts. These numbers come from our own run of the LeMat-GenBench evaluation code; they are not a leaderboard submission.
 
@@ -53,7 +53,6 @@ The development screen used two cohorts of 2,500 attempts (seeds 2026114001-02) 
 
 | Model (+ Sall kernel) | Development MSUN (5,000 attempts) |
 |---|---|
-| CrysFDiT + Flow-DPO (before NFT) | 23.36 % |
 | **CrysFDiT-NFT** | **30.98 %** |
 
 ### Pre-relaxation
