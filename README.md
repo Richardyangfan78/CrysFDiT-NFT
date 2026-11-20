@@ -75,7 +75,7 @@ python scripts/export_cif.py samples/seed0/samples.jsonl samples/seed0/cif.zip
 
 Each row holds `atomic_numbers`, fractional `coords` and `lattice` (rows in Å). By default the atom count of each sample is drawn from the MP-20 training histogram with `random.Random(seed)`; `--atom-counts` fixes the counts from a JSON list instead. `--kernel off` skips the substitution kernel.
 
-Sampling 2,500 crystals, model loading included, takes about 7 s on one NVIDIA GH200 with PyTorch 2.11. The same seed, batch size and hardware give the same crystals. On that setup, `--seed 2026115001` and `--seed 2026115002` reproduce the crystals of two formal-evaluation cohorts bit for bit (2 × 2,500), both as DiT outputs and after the Sall kernel.
+Sampling 2,500 crystals, model loading included, takes about 7 s on one NVIDIA GH200 with PyTorch 2.11. The same seed, batch size and hardware give the same crystals. On that setup, `--seed 2026115001`, `2026115002` and `2026115003` reproduce the three formal-evaluation cohorts bit for bit (3 × 2,500 crystals), both as DiT outputs and after the Sall kernel. This was checked with a fresh clone of this repository and the release weights.
 
 ```python
 import torch
