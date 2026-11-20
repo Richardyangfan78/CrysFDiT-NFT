@@ -1,0 +1,5 @@
+{
+  "description": "Atom counts of the 27,136 MP-20 training crystals (CDVAE split). Unconditional samples draw their atom count from this histogram.",
+  "num_structures": 27136,
+  "counts": {"1": 59, "2": 572, "3": 538, "4": 4144, "5": 1279, "6": 2297, "7": 572, "8": 2119, "9": 932, "10": 2640, "11": 361, "12": 2624, "13": 585, "14": 1770, "15": 390, "16": 1819, "17": 264, "18": 1443, "19": 287, "20": 2441}
+}

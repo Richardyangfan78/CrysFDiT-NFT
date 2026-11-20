@@ -1,0 +1,2421 @@
+{
+  "elements": {
+    "1": {
+      "symbol": "H",
+      "group": 1,
+      "period": 1,
+      "block": "s",
+      "common_oxidation_states": [
+        -1,
+        1
+      ],
+      "atomic_radius": 0.25,
+      "training_atoms": 3003
+    },
+    "2": {
+      "symbol": "He",
+      "group": 18,
+      "period": 1,
+      "block": "p",
+      "common_oxidation_states": [],
+      "atomic_radius": null,
+      "training_atoms": 7
+    },
+    "3": {
+      "symbol": "Li",
+      "group": 1,
+      "period": 2,
+      "block": "s",
+      "common_oxidation_states": [
+        1
+      ],
+      "atomic_radius": 1.45,
+      "training_atoms": 6476
+    },
+    "4": {
+      "symbol": "Be",
+      "group": 2,
+      "period": 2,
+      "block": "s",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.05,
+      "training_atoms": 655
+    },
+    "5": {
+      "symbol": "B",
+      "group": 13,
+      "period": 2,
+      "block": "p",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 0.85,
+      "training_atoms": 3537
+    },
+    "6": {
+      "symbol": "C",
+      "group": 14,
+      "period": 2,
+      "block": "p",
+      "common_oxidation_states": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "atomic_radius": 0.7,
+      "training_atoms": 2513
+    },
+    "7": {
+      "symbol": "N",
+      "group": 15,
+      "period": 2,
+      "block": "p",
+      "common_oxidation_states": [
+        -3,
+        3,
+        5
+      ],
+      "atomic_radius": 0.65,
+      "training_atoms": 3013
+    },
+    "8": {
+      "symbol": "O",
+      "group": 16,
+      "period": 2,
+      "block": "p",
+      "common_oxidation_states": [
+        -2
+      ],
+      "atomic_radius": 0.6,
+      "training_atoms": 53187
+    },
+    "9": {
+      "symbol": "F",
+      "group": 17,
+      "period": 2,
+      "block": "p",
+      "common_oxidation_states": [
+        -1
+      ],
+      "atomic_radius": 0.5,
+      "training_atoms": 13006
+    },
+    "10": {
+      "symbol": "Ne",
+      "group": 18,
+      "period": 2,
+      "block": "p",
+      "common_oxidation_states": [],
+      "atomic_radius": null,
+      "training_atoms": 1
+    },
+    "11": {
+      "symbol": "Na",
+      "group": 1,
+      "period": 3,
+      "block": "s",
+      "common_oxidation_states": [
+        1
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 2572
+    },
+    "12": {
+      "symbol": "Mg",
+      "group": 2,
+      "period": 3,
+      "block": "s",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.5,
+      "training_atoms": 3650
+    },
+    "13": {
+      "symbol": "Al",
+      "group": 13,
+      "period": 3,
+      "block": "p",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.25,
+      "training_atoms": 4429
+    },
+    "14": {
+      "symbol": "Si",
+      "group": 14,
+      "period": 3,
+      "block": "p",
+      "common_oxidation_states": [
+        -4,
+        4
+      ],
+      "atomic_radius": 1.1,
+      "training_atoms": 4906
+    },
+    "15": {
+      "symbol": "P",
+      "group": 15,
+      "period": 3,
+      "block": "p",
+      "common_oxidation_states": [
+        -3,
+        3,
+        5
+      ],
+      "atomic_radius": 1.0,
+      "training_atoms": 3243
+    },
+    "16": {
+      "symbol": "S",
+      "group": 16,
+      "period": 3,
+      "block": "p",
+      "common_oxidation_states": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "atomic_radius": 1.0,
+      "training_atoms": 10586
+    },
+    "17": {
+      "symbol": "Cl",
+      "group": 17,
+      "period": 3,
+      "block": "p",
+      "common_oxidation_states": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "atomic_radius": 1.0,
+      "training_atoms": 5516
+    },
+    "19": {
+      "symbol": "K",
+      "group": 1,
+      "period": 4,
+      "block": "s",
+      "common_oxidation_states": [
+        1
+      ],
+      "atomic_radius": 2.2,
+      "training_atoms": 2824
+    },
+    "20": {
+      "symbol": "Ca",
+      "group": 2,
+      "period": 4,
+      "block": "s",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 2668
+    },
+    "21": {
+      "symbol": "Sc",
+      "group": 3,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.6,
+      "training_atoms": 1564
+    },
+    "22": {
+      "symbol": "Ti",
+      "group": 4,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        4
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 2767
+    },
+    "23": {
+      "symbol": "V",
+      "group": 5,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        5
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 3343
+    },
+    "24": {
+      "symbol": "Cr",
+      "group": 6,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        3,
+        6
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 2223
+    },
+    "25": {
+      "symbol": "Mn",
+      "group": 7,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        2,
+        4,
+        7
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 4693
+    },
+    "26": {
+      "symbol": "Fe",
+      "group": 8,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        2,
+        3
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 5370
+    },
+    "27": {
+      "symbol": "Co",
+      "group": 9,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        2,
+        3
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 5190
+    },
+    "28": {
+      "symbol": "Ni",
+      "group": 10,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 5994
+    },
+    "29": {
+      "symbol": "Cu",
+      "group": 11,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 5166
+    },
+    "30": {
+      "symbol": "Zn",
+      "group": 12,
+      "period": 4,
+      "block": "d",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 2794
+    },
+    "31": {
+      "symbol": "Ga",
+      "group": 13,
+      "period": 4,
+      "block": "p",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.3,
+      "training_atoms": 4170
+    },
+    "32": {
+      "symbol": "Ge",
+      "group": 14,
+      "period": 4,
+      "block": "p",
+      "common_oxidation_states": [
+        -4,
+        2,
+        4
+      ],
+      "atomic_radius": 1.25,
+      "training_atoms": 4911
+    },
+    "33": {
+      "symbol": "As",
+      "group": 15,
+      "period": 4,
+      "block": "p",
+      "common_oxidation_states": [
+        -3,
+        3,
+        5
+      ],
+      "atomic_radius": 1.15,
+      "training_atoms": 2588
+    },
+    "34": {
+      "symbol": "Se",
+      "group": 16,
+      "period": 4,
+      "block": "p",
+      "common_oxidation_states": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "atomic_radius": 1.15,
+      "training_atoms": 6302
+    },
+    "35": {
+      "symbol": "Br",
+      "group": 17,
+      "period": 4,
+      "block": "p",
+      "common_oxidation_states": [
+        -1,
+        1,
+        3,
+        5
+      ],
+      "atomic_radius": 1.15,
+      "training_atoms": 3342
+    },
+    "36": {
+      "symbol": "Kr",
+      "group": 18,
+      "period": 4,
+      "block": "p",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": null,
+      "training_atoms": 13
+    },
+    "37": {
+      "symbol": "Rb",
+      "group": 1,
+      "period": 5,
+      "block": "s",
+      "common_oxidation_states": [
+        1
+      ],
+      "atomic_radius": 2.35,
+      "training_atoms": 2203
+    },
+    "38": {
+      "symbol": "Sr",
+      "group": 2,
+      "period": 5,
+      "block": "s",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 2.0,
+      "training_atoms": 3244
+    },
+    "39": {
+      "symbol": "Y",
+      "group": 3,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 2409
+    },
+    "40": {
+      "symbol": "Zr",
+      "group": 4,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        4
+      ],
+      "atomic_radius": 1.55,
+      "training_atoms": 2169
+    },
+    "41": {
+      "symbol": "Nb",
+      "group": 5,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        5
+      ],
+      "atomic_radius": 1.45,
+      "training_atoms": 2040
+    },
+    "42": {
+      "symbol": "Mo",
+      "group": 6,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        4,
+        6
+      ],
+      "atomic_radius": 1.45,
+      "training_atoms": 1819
+    },
+    "43": {
+      "symbol": "Tc",
+      "group": 7,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        4,
+        7
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 369
+    },
+    "44": {
+      "symbol": "Ru",
+      "group": 8,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        3,
+        4
+      ],
+      "atomic_radius": 1.3,
+      "training_atoms": 1649
+    },
+    "45": {
+      "symbol": "Rh",
+      "group": 9,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 2576
+    },
+    "46": {
+      "symbol": "Pd",
+      "group": 10,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        2,
+        4
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 3185
+    },
+    "47": {
+      "symbol": "Ag",
+      "group": 11,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        1
+      ],
+      "atomic_radius": 1.6,
+      "training_atoms": 2597
+    },
+    "48": {
+      "symbol": "Cd",
+      "group": 12,
+      "period": 5,
+      "block": "d",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 1.55,
+      "training_atoms": 1727
+    },
+    "49": {
+      "symbol": "In",
+      "group": 13,
+      "period": 5,
+      "block": "p",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.55,
+      "training_atoms": 3187
+    },
+    "50": {
+      "symbol": "Sn",
+      "group": 14,
+      "period": 5,
+      "block": "p",
+      "common_oxidation_states": [
+        -4,
+        2,
+        4
+      ],
+      "atomic_radius": 1.45,
+      "training_atoms": 3753
+    },
+    "51": {
+      "symbol": "Sb",
+      "group": 15,
+      "period": 5,
+      "block": "p",
+      "common_oxidation_states": [
+        -3,
+        3,
+        5
+      ],
+      "atomic_radius": 1.45,
+      "training_atoms": 3114
+    },
+    "52": {
+      "symbol": "Te",
+      "group": 16,
+      "period": 5,
+      "block": "p",
+      "common_oxidation_states": [
+        -2,
+        2,
+        4,
+        6
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 4155
+    },
+    "53": {
+      "symbol": "I",
+      "group": 17,
+      "period": 5,
+      "block": "p",
+      "common_oxidation_states": [
+        -1,
+        1,
+        3,
+        5,
+        7
+      ],
+      "atomic_radius": 1.4,
+      "training_atoms": 3286
+    },
+    "54": {
+      "symbol": "Xe",
+      "group": 18,
+      "period": 5,
+      "block": "p",
+      "common_oxidation_states": [
+        2,
+        4,
+        6
+      ],
+      "atomic_radius": null,
+      "training_atoms": 17
+    },
+    "55": {
+      "symbol": "Cs",
+      "group": 1,
+      "period": 6,
+      "block": "s",
+      "common_oxidation_states": [
+        1
+      ],
+      "atomic_radius": 2.6,
+      "training_atoms": 2230
+    },
+    "56": {
+      "symbol": "Ba",
+      "group": 2,
+      "period": 6,
+      "block": "s",
+      "common_oxidation_states": [
+        2
+      ],
+      "atomic_radius": 2.15,
+      "training_atoms": 2999
+    },
+    "57": {
+      "symbol": "La",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.95,
+      "training_atoms": 3013
+    },
+    "58": {
+      "symbol": "Ce",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3,
+        4
+      ],
+      "atomic_radius": 1.85,
+      "training_atoms": 2067
+    },
+    "59": {
+      "symbol": "Pr",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.85,
+      "training_atoms": 2074
+    },
+    "60": {
+      "symbol": "Nd",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.85,
+      "training_atoms": 2005
+    },
+    "61": {
+      "symbol": "Pm",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.85,
+      "training_atoms": 519
+    },
+    "62": {
+      "symbol": "Sm",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.85,
+      "training_atoms": 1784
+    },
+    "63": {
+      "symbol": "Eu",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        2,
+        3
+      ],
+      "atomic_radius": 1.85,
+      "training_atoms": 1490
+    },
+    "64": {
+      "symbol": "Gd",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 1071
+    },
+    "65": {
+      "symbol": "Tb",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1931
+    },
+    "66": {
+      "symbol": "Dy",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1808
+    },
+    "67": {
+      "symbol": "Ho",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1776
+    },
+    "68": {
+      "symbol": "Er",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1922
+    },
+    "69": {
+      "symbol": "Tm",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1497
+    },
+    "70": {
+      "symbol": "Yb",
+      "group": 3,
+      "period": 6,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1347
+    },
+    "71": {
+      "symbol": "Lu",
+      "group": 3,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1408
+    },
+    "72": {
+      "symbol": "Hf",
+      "group": 4,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        4
+      ],
+      "atomic_radius": 1.55,
+      "training_atoms": 1443
+    },
+    "73": {
+      "symbol": "Ta",
+      "group": 5,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        5
+      ],
+      "atomic_radius": 1.45,
+      "training_atoms": 1366
+    },
+    "74": {
+      "symbol": "W",
+      "group": 6,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        4,
+        6
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 1276
+    },
+    "75": {
+      "symbol": "Re",
+      "group": 7,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        4,
+        7
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 669
+    },
+    "76": {
+      "symbol": "Os",
+      "group": 8,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        4
+      ],
+      "atomic_radius": 1.3,
+      "training_atoms": 783
+    },
+    "77": {
+      "symbol": "Ir",
+      "group": 9,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        3,
+        4
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 1860
+    },
+    "78": {
+      "symbol": "Pt",
+      "group": 10,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        2,
+        4
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 2463
+    },
+    "79": {
+      "symbol": "Au",
+      "group": 11,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.35,
+      "training_atoms": 2194
+    },
+    "80": {
+      "symbol": "Hg",
+      "group": 12,
+      "period": 6,
+      "block": "d",
+      "common_oxidation_states": [
+        1,
+        2
+      ],
+      "atomic_radius": 1.5,
+      "training_atoms": 1343
+    },
+    "81": {
+      "symbol": "Tl",
+      "group": 13,
+      "period": 6,
+      "block": "p",
+      "common_oxidation_states": [
+        1,
+        3
+      ],
+      "atomic_radius": 1.9,
+      "training_atoms": 1777
+    },
+    "82": {
+      "symbol": "Pb",
+      "group": 14,
+      "period": 6,
+      "block": "p",
+      "common_oxidation_states": [
+        2,
+        4
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 1625
+    },
+    "83": {
+      "symbol": "Bi",
+      "group": 15,
+      "period": 6,
+      "block": "p",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.6,
+      "training_atoms": 2264
+    },
+    "89": {
+      "symbol": "Ac",
+      "group": 3,
+      "period": 7,
+      "block": "f",
+      "common_oxidation_states": [
+        3
+      ],
+      "atomic_radius": 1.95,
+      "training_atoms": 317
+    },
+    "90": {
+      "symbol": "Th",
+      "group": 3,
+      "period": 7,
+      "block": "f",
+      "common_oxidation_states": [
+        4
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 874
+    },
+    "91": {
+      "symbol": "Pa",
+      "group": 3,
+      "period": 7,
+      "block": "f",
+      "common_oxidation_states": [
+        5
+      ],
+      "atomic_radius": 1.8,
+      "training_atoms": 160
+    },
+    "92": {
+      "symbol": "U",
+      "group": 3,
+      "period": 7,
+      "block": "f",
+      "common_oxidation_states": [
+        6
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 1329
+    },
+    "93": {
+      "symbol": "Np",
+      "group": 3,
+      "period": 7,
+      "block": "f",
+      "common_oxidation_states": [
+        5
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 174
+    },
+    "94": {
+      "symbol": "Pu",
+      "group": 3,
+      "period": 7,
+      "block": "f",
+      "common_oxidation_states": [
+        4
+      ],
+      "atomic_radius": 1.75,
+      "training_atoms": 268
+    }
+  },
+  "compatibility": {
+    "1": [],
+    "2": [],
+    "3": [
+      {
+        "target": 11,
+        "radius_ratio": 1.2413793103448276,
+        "weight": 0.2365756167022113
+      }
+    ],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [
+      {
+        "target": 3,
+        "radius_ratio": 0.8055555555555555,
+        "weight": 0.23657561670221114
+      },
+      {
+        "target": 19,
+        "radius_ratio": 1.2222222222222223,
+        "weight": 0.26242114648667747
+      }
+    ],
+    "12": [
+      {
+        "target": 20,
+        "radius_ratio": 1.2,
+        "weight": 0.2965685039344404
+      }
+    ],
+    "13": [
+      {
+        "target": 31,
+        "radius_ratio": 1.04,
+        "weight": 0.7699178785761353
+      }
+    ],
+    "14": [
+      {
+        "target": 32,
+        "radius_ratio": 1.1363636363636362,
+        "weight": 0.42646606701300943
+      }
+    ],
+    "15": [
+      {
+        "target": 33,
+        "radius_ratio": 1.15,
+        "weight": 0.3938653093776966
+      }
+    ],
+    "16": [
+      {
+        "target": 34,
+        "radius_ratio": 1.15,
+        "weight": 0.3938653093776966
+      }
+    ],
+    "17": [],
+    "19": [
+      {
+        "target": 11,
+        "radius_ratio": 0.8181818181818181,
+        "weight": 0.26242114648667747
+      },
+      {
+        "target": 37,
+        "radius_ratio": 1.0681818181818181,
+        "weight": 0.6442169148567402
+      }
+    ],
+    "20": [
+      {
+        "target": 12,
+        "radius_ratio": 0.8333333333333333,
+        "weight": 0.2965685039344402
+      },
+      {
+        "target": 38,
+        "radius_ratio": 1.1111111111111112,
+        "weight": 0.4953932250589872
+      }
+    ],
+    "21": [
+      {
+        "target": 39,
+        "radius_ratio": 1.125,
+        "weight": 0.4560192580885373
+      }
+    ],
+    "22": [
+      {
+        "target": 40,
+        "radius_ratio": 1.1071428571428572,
+        "weight": 0.507351462619825
+      }
+    ],
+    "23": [
+      {
+        "target": 41,
+        "radius_ratio": 1.074074074074074,
+        "weight": 0.621019315781533
+      }
+    ],
+    "24": [],
+    "25": [],
+    "26": [],
+    "27": [],
+    "28": [
+      {
+        "target": 46,
+        "radius_ratio": 1.037037037037037,
+        "weight": 0.784702227538541
+      }
+    ],
+    "29": [],
+    "30": [
+      {
+        "target": 48,
+        "radius_ratio": 1.1481481481481481,
+        "weight": 0.3981198228627135
+      }
+    ],
+    "31": [
+      {
+        "target": 13,
+        "radius_ratio": 0.9615384615384615,
+        "weight": 0.7699178785761349
+      },
+      {
+        "target": 49,
+        "radius_ratio": 1.1923076923076923,
+        "weight": 0.30955965994505474
+      }
+    ],
+    "32": [
+      {
+        "target": 50,
+        "radius_ratio": 1.16,
+        "weight": 0.37177490542747915
+      }
+    ],
+    "33": [
+      {
+        "target": 15,
+        "radius_ratio": 0.8695652173913044,
+        "weight": 0.39386530937769665
+      },
+      {
+        "target": 51,
+        "radius_ratio": 1.2608695652173914,
+        "weight": 0.21323848457525296
+      }
+    ],
+    "34": [
+      {
+        "target": 16,
+        "radius_ratio": 0.8695652173913044,
+        "weight": 0.39386530937769665
+      },
+      {
+        "target": 52,
+        "radius_ratio": 1.2173913043478262,
+        "weight": 0.2694420440571417
+      }
+    ],
+    "35": [
+      {
+        "target": 17,
+        "radius_ratio": 0.8695652173913044,
+        "weight": 0.39386530937769665
+      },
+      {
+        "target": 53,
+        "radius_ratio": 1.2173913043478262,
+        "weight": 0.2694420440571417
+      }
+    ],
+    "36": [],
+    "37": [
+      {
+        "target": 19,
+        "radius_ratio": 0.9361702127659575,
+        "weight": 0.64421691485674
+      },
+      {
+        "target": 55,
+        "radius_ratio": 1.1063829787234043,
+        "weight": 0.5096790258485848
+      }
+    ],
+    "38": [
+      {
+        "target": 20,
+        "radius_ratio": 0.9,
+        "weight": 0.4953932250589874
+      },
+      {
+        "target": 56,
+        "radius_ratio": 1.075,
+        "weight": 0.6174620043042894
+      }
+    ],
+    "39": [
+      {
+        "target": 21,
+        "radius_ratio": 0.888888888888889,
+        "weight": 0.45601925808853755
+      },
+      {
+        "target": 71,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      }
+    ],
+    "40": [
+      {
+        "target": 22,
+        "radius_ratio": 0.9032258064516128,
+        "weight": 0.5073514626198247
+      },
+      {
+        "target": 72,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "41": [
+      {
+        "target": 23,
+        "radius_ratio": 0.9310344827586208,
+        "weight": 0.6210193157815329
+      },
+      {
+        "target": 73,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "42": [
+      {
+        "target": 74,
+        "radius_ratio": 0.9310344827586208,
+        "weight": 0.6210193157815329
+      }
+    ],
+    "43": [
+      {
+        "target": 25,
+        "radius_ratio": 1.037037037037037,
+        "weight": 0.784702227538541
+      },
+      {
+        "target": 75,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "44": [],
+    "45": [
+      {
+        "target": 27,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 77,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "46": [
+      {
+        "target": 78,
+        "radius_ratio": 0.9642857142857144,
+        "weight": 0.7847022275385415
+      }
+    ],
+    "47": [],
+    "48": [
+      {
+        "target": 30,
+        "radius_ratio": 0.8709677419354839,
+        "weight": 0.3981198228627135
+      },
+      {
+        "target": 80,
+        "radius_ratio": 0.9677419354838709,
+        "weight": 0.8036440603629741
+      }
+    ],
+    "49": [
+      {
+        "target": 31,
+        "radius_ratio": 0.8387096774193549,
+        "weight": 0.3095596599450548
+      },
+      {
+        "target": 81,
+        "radius_ratio": 1.225806451612903,
+        "weight": 0.25734791151245767
+      }
+    ],
+    "50": [
+      {
+        "target": 32,
+        "radius_ratio": 0.8620689655172414,
+        "weight": 0.37177490542747915
+      }
+    ],
+    "51": [
+      {
+        "target": 33,
+        "radius_ratio": 0.793103448275862,
+        "weight": 0.21323848457525288
+      }
+    ],
+    "52": [
+      {
+        "target": 34,
+        "radius_ratio": 0.8214285714285714,
+        "weight": 0.26944204405714184
+      }
+    ],
+    "53": [],
+    "54": [],
+    "55": [
+      {
+        "target": 37,
+        "radius_ratio": 0.9038461538461539,
+        "weight": 0.5096790258485849
+      }
+    ],
+    "56": [
+      {
+        "target": 38,
+        "radius_ratio": 0.9302325581395349,
+        "weight": 0.6174620043042892
+      }
+    ],
+    "57": [
+      {
+        "target": 58,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 59,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 60,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 61,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 62,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 63,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 64,
+        "radius_ratio": 0.9230769230769231,
+        "weight": 0.5864792146509621
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "58": [],
+    "59": [
+      {
+        "target": 57,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 64,
+        "radius_ratio": 0.9729729729729729,
+        "weight": 0.8330514884003485
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      }
+    ],
+    "60": [
+      {
+        "target": 57,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 64,
+        "radius_ratio": 0.9729729729729729,
+        "weight": 0.8330514884003485
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      }
+    ],
+    "61": [
+      {
+        "target": 57,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 64,
+        "radius_ratio": 0.9729729729729729,
+        "weight": 0.8330514884003485
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      }
+    ],
+    "62": [
+      {
+        "target": 57,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 64,
+        "radius_ratio": 0.9729729729729729,
+        "weight": 0.8330514884003485
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.9459459459459459,
+        "weight": 0.6904127482484204
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.054054054054054,
+        "weight": 0.7040131646330021
+      }
+    ],
+    "63": [],
+    "64": [
+      {
+        "target": 57,
+        "radius_ratio": 1.0833333333333333,
+        "weight": 0.5864792146509621
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.0833333333333333,
+        "weight": 0.5864792146509621
+      }
+    ],
+    "65": [
+      {
+        "target": 57,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 64,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      },
+      {
+        "target": 66,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 67,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 68,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 69,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 70,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      }
+    ],
+    "66": [
+      {
+        "target": 57,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 64,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      },
+      {
+        "target": 65,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 67,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 68,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 69,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 70,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      }
+    ],
+    "67": [
+      {
+        "target": 57,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 64,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      },
+      {
+        "target": 65,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 66,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 68,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 69,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 70,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      }
+    ],
+    "68": [
+      {
+        "target": 57,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 64,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      },
+      {
+        "target": 65,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 66,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 67,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 69,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 70,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      }
+    ],
+    "69": [
+      {
+        "target": 57,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 64,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      },
+      {
+        "target": 65,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 66,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 67,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 68,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 70,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      }
+    ],
+    "70": [
+      {
+        "target": 57,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      },
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 59,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 60,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 61,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 62,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 63,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 64,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      },
+      {
+        "target": 65,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 66,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 67,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 68,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 69,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 89,
+        "radius_ratio": 1.1142857142857143,
+        "weight": 0.48605966379733817
+      }
+    ],
+    "71": [
+      {
+        "target": 39,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      }
+    ],
+    "72": [
+      {
+        "target": 40,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "73": [
+      {
+        "target": 41,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "74": [
+      {
+        "target": 42,
+        "radius_ratio": 1.074074074074074,
+        "weight": 0.621019315781533
+      }
+    ],
+    "75": [
+      {
+        "target": 43,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "76": [
+      {
+        "target": 44,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      }
+    ],
+    "77": [],
+    "78": [
+      {
+        "target": 46,
+        "radius_ratio": 1.037037037037037,
+        "weight": 0.784702227538541
+      }
+    ],
+    "79": [],
+    "80": [],
+    "81": [],
+    "82": [
+      {
+        "target": 50,
+        "radius_ratio": 0.8055555555555555,
+        "weight": 0.23657561670221114
+      }
+    ],
+    "83": [
+      {
+        "target": 51,
+        "radius_ratio": 0.9062499999999999,
+        "weight": 0.5187842673439886
+      }
+    ],
+    "89": [
+      {
+        "target": 57,
+        "radius_ratio": 1.0,
+        "weight": 1.0
+      },
+      {
+        "target": 58,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 59,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 60,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 61,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 62,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 63,
+        "radius_ratio": 0.9487179487179488,
+        "weight": 0.704013164633002
+      },
+      {
+        "target": 64,
+        "radius_ratio": 0.9230769230769231,
+        "weight": 0.5864792146509621
+      },
+      {
+        "target": 65,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 66,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 67,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 68,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 69,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      },
+      {
+        "target": 70,
+        "radius_ratio": 0.8974358974358975,
+        "weight": 0.4860596637973384
+      }
+    ],
+    "90": [
+      {
+        "target": 58,
+        "radius_ratio": 1.027777777777778,
+        "weight": 0.8330514884003482
+      },
+      {
+        "target": 94,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      }
+    ],
+    "91": [
+      {
+        "target": 93,
+        "radius_ratio": 0.9722222222222222,
+        "weight": 0.8287756013426879
+      }
+    ],
+    "92": [],
+    "93": [
+      {
+        "target": 91,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      }
+    ],
+    "94": [
+      {
+        "target": 58,
+        "radius_ratio": 1.0571428571428572,
+        "weight": 0.6904127482484202
+      },
+      {
+        "target": 90,
+        "radius_ratio": 1.0285714285714287,
+        "weight": 0.8287756013426874
+      }
+    ]
+  }
+}
